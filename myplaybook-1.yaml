@@ -1,0 +1,4 @@
+---
+- hosts: servera.lab.example.com
+  tasks:
+     - ping:
