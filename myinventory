@@ -1,4 +1,5 @@
 servere.lab.example.com
+serverc.lab.example.com
 
 [webservers]
 serverf.lab.example.com
