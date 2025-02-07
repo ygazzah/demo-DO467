@@ -3,4 +3,4 @@
   gather_facts: false
   tasks:
     - debug: 
-        msg: "hello BNPParibas ! {{ ansible_facts.fqdn }}"
+        msg: "hello BNPParibas ! {{ provider }}"
