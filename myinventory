@@ -1,8 +1,12 @@
 servere.lab.Example.com
 
 [webservers]
-serverf.lab.example.Com
-serverb.lab.example.coml
+serverf.lab.example.com
+serverb.lab.example.com
+
+[webservers:vars]
+provider=RedHat
+Client=BNP
 
 [loadbalancers]
-servera.lab.example.com
+servera.lab.example.com 
