@@ -1,0 +1,8 @@
+servere.lab.Example.com
+
+[webservers]
+serverf.lab.example.Com
+serverb.lab.example.coml
+
+[loadbalancers]
+servera.lab.example.com
