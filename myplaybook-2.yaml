@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: "{{ myservers }}"
   gather_facts: false
   tasks:
     - debug: 
