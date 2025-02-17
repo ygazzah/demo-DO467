@@ -1,5 +1,6 @@
 ---
 - hosts: servera.lab.example.com
   tasks:
-     - ping:
+     - name: this is a task !!!!!!!!!!!!!!!!
+       ping:
        verbosity: 2
