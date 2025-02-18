@@ -5,16 +5,16 @@ import sys
 import json
 
 result = {}
-result['webservers'] = {}
-result['webservers']['hosts'] = []
-result['webservers']['vars'] = {}
+result['dynamicgroup'] = {}
+result['dynamicgroup']['hosts'] = []
+result['dynamicgroup']['vars'] = {}
 
 pipe = Popen(['getent', 'hosts'], stdout=PIPE, universal_newlines=True)
 
 for line in pipe.stdout.readlines():
     s = line.split()
     if s[1].startswith('servera'):
-        result['webservers']['hosts'].append(s[1])
+        result['dynamicgroup']['hosts'].append(s[1])
 
 if len(sys.argv) == 2 and sys.argv[1] == '--list':
     print(json.dumps(result))
