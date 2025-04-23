@@ -2,8 +2,8 @@
 - hosts: all
   gather_facts: false
   tasks:
-     - name: this is a task !!!!!!!!!!!!!!!!
+     - name: this is a task !
        ping:
      - name: test facts
        debug: 
-         msg: "{{ ansible_facts.hostname }}"
+         msg: "{{ provider }}"
