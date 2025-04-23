@@ -1,0 +1,4 @@
+- hosts: servera
+  tasks:
+    - debug:
+         msg: hello ! I am collecting facts !
