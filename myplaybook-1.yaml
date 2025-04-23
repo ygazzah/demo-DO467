@@ -3,4 +3,3 @@
   tasks:
      - name: this is a task !!!!!!!!!!!!!!!!
        ping:
-       verbosity: 2
