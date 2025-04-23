@@ -6,4 +6,4 @@
        ping:
      - name: test facts
        debug: 
-         msg: "{{ ansible_facts.hostname }}"
+         msg: "{{ ansible_facts }}"
