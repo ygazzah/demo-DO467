@@ -1,4 +1,4 @@
-- hosts: servera.lab.example.com
+- hosts: all
   tasks:
     - debug:
          msg: hello ! I am collecting facts !
