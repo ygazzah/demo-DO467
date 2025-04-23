@@ -4,3 +4,6 @@
   tasks:
      - name: this is a task !!!!!!!!!!!!!!!!
        ping:
+     - name: test facts
+       debug: 
+         msg: "{{ ansible_facts.hostname }}"
