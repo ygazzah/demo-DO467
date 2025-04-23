@@ -1,5 +1,5 @@
 ---
-- hosts: servera.lab.example.com
+- hosts: all
   tasks:
      - name: this is a task !!!!!!!!!!!!!!!!
        ping:
