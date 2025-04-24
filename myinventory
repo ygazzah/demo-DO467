@@ -4,6 +4,7 @@ serverc.lab.example.com
 [webservers]
 serverf.lab.example.com
 serverb.lab.example.com
+servere.lab.example.com
 
 [webservers:vars]
 provider=RedHat
