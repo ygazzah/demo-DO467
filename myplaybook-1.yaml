@@ -6,4 +6,4 @@
        ping:
      - name: test facts
        debug: 
-         msg: "{{ provider }}"
+         msg: "this is our provider :: {{ provider }}"
