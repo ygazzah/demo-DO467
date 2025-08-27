@@ -13,7 +13,7 @@ pipe = Popen(['getent', 'hosts'], stdout=PIPE, universal_newlines=True)
 
 for line in pipe.stdout.readlines():
     s = line.split()
-    if s[1].startswith('servera'):
+    if s[1].startswith('controller'):
         result['dynamicgroup']['hosts'].append(s[1])
 
 if len(sys.argv) == 2 and sys.argv[1] == '--list':
