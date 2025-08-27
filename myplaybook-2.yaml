@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ myservers }}"
+- hosts: servera.lab.example.com
   tasks:
     - debug: 
-        msg: "hello BNPParibas ! {{ provider }}"
+        msg: "hello Cairp ! from {{ ansible_facts.fqdn }}"
