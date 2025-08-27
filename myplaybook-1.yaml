@@ -9,4 +9,4 @@
          msg: "this is our provider :: {{ provider }}"
      - name: test facts
        debug: 
-         msg: "message two !!"
+         msg: "message two !! {{ mysurveyvar }}"
