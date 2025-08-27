@@ -1,4 +1,6 @@
 - hosts: all
+  gather_facts: true
   tasks:
     - debug:
          msg: hello ! I am collecting facts !
+
