@@ -8,7 +8,7 @@ import sys
 # This structure must conform to the dynamic inventory JSON output specification.
 INVENTORY_DATA = {
     # Group for Windows servers
-    "mywindos_servers": {
+    "mywindows_servers": {
         "hosts": [
             "win1.example.com",
             "win2.example.com"
@@ -21,7 +21,7 @@ INVENTORY_DATA = {
         }
     },
     # Group for Linux servers
-    "mylinuxservers": {
+    "mylinux_servers": {
         "hosts": [
             "servera.example.com",
             "serverb.example.com"
